@@ -1,0 +1,11 @@
+The following libraries are required in this project:
+openai: For interacting with the OpenAI API to use the LLM.
+        To install, run the command: pip install openai
+PyPDF2: For parsing PDF documents and extracting text.
+        To install, run the command: pip install PyPDF2
+tabula-py: For extracting tables from PDF documents.
+           To install, run the command: pip install tabula-py
+fastapi: For building the web API.
+         To install, run the command: pip install fastapi
+uvicorn: For running the FastAPI app as an ASGI server.
+        To install, run the command: pip install uvicorn
